@@ -1,0 +1,1239 @@
+	.footer .lines{
+		display: flex;
+		justify-content: space-around;
+		align-items: center;
+		margin-top: 1rem;
+		margin-bottom: 1rem;
+		color: #CCCCCC;
+		font-size: 2rem;
+	}
+	.footer .foot_line{
+		width: 18.75rem;
+		height: 2px;
+		background-color: #CCCCCC;
+	}
+@media (max-width:575px) {
+	.banner{
+		width: 100%;
+		height: 280px;
+		background: url(../images/xing.gif) no-repeat;
+		background-size: cover;
+	}
+	.banner-page1{
+		padding-top:90px;
+		margin-bottom:46px;
+		display: flex;
+		justify-content: center;
+	}
+	.banner-page1 img{
+		width: 240px;
+		height: 144px;
+	}
+	.banner-page2{
+		padding: 20px;
+		display: flex;
+		justify-content: center;
+	}
+	.banner-page2 img{
+		width: 100px;
+		height: 80px;
+		margin-top: 50px;
+	}
+	.banner-page2 h1{
+		font-size: 18px;
+		line-height: 28px;
+		font-weight: 600;
+		color: #222;
+		text-align: center;
+	}
+	.chain{
+		height: 66rpx;
+		background-color: rgba(60,36,93,.53);
+		border-radius: 15px;
+		text-align: center;
+	}
+	.chain img{
+		width: 100%;
+		height: 40px;
+	}
+	.banner-page2 span{
+		height: 26px;
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 26px;
+		display: inline-block;
+		color: #FFFFFF;
+	}
+	.banner1 .text{
+		font-size: 18px;
+		line-height: 28px;
+		font-weight: 600;
+		color: #ccc;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.banner1 .btn{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		padding-bottom: 20px;
+	}
+	.banner1 .btn button{
+		background-color: transparent;
+		color: #FFFFFF;
+		border-radius: 5px;
+		border: 1px solid #CCCCCC;
+		width: 70px;
+		height: 30px;
+		font-size: 12px;
+	}
+	.caen-page{
+		padding: 0 20px;
+		box-sizing: border-box;
+		width: 100%;
+	}
+	.caen-page .main{
+		padding: 20px 0 50px;
+		min-width: 100%;
+	}
+	.caen-page .main .title{
+		font-size: 18px;
+		line-height: 28px;
+		font-weight: 600;
+		color: #222;
+		text-align: center;
+		margin-top: 30px;
+	}
+	.caen-page .main .text{
+		font-size: 14px;
+		line-height: 24px;
+		margin-top: 5px;
+		font-weight: 400;
+		color: #222222;
+		text-indent: 2em;
+	}
+	.caen-page .main .chain-more{
+		margin-top: 20px;
+		text-align: center;
+	}
+	.caen-page .main .chain-more .text1{
+		font-size: 16px;
+		line-height: 24px;
+		font-weight: 500;
+		color: #222222;
+	}
+	.caen-page .main .chain-more ul{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 15px;
+	}
+	.caen-page .main .chain-more ul li{
+		flex:1;
+		margin-right: 15px;
+		display: flex;
+	}
+	.caen-page .main .chain-more ul li img{
+		width: 100%;
+		height: 28px;
+	}
+	.banner2{
+		width: 100%;
+		height: 400px;
+		background-color: rgba(123,0,175,.05);
+		box-sizing: border-box;
+		padding: 20px;
+	}
+	.banner2 .main{
+		width: 100%;
+		min-width: 100%;
+		height: 100%;
+	}
+	.banner2 .main .title{
+		margin-top: 20px;
+		font-size: 14px;
+		font-weight: 600;
+		color: #666;
+		display: flex;
+		flex-direction: column;
+	}
+	.banner2 .main .title .num{
+		font-size: 20px;
+		margin: 10px 0;
+		color: #000;
+	}
+	.caen-page2{
+		width: 100%;
+		padding: 0 20px;
+		box-sizing: border-box;
+	}
+	.caen-page2 .main{
+		padding-top: 20px;
+		padding-bottom: 50px;
+		margin: 0 auto;
+		width: 100%;
+		min-width: 100%;
+		text-align: left;
+	}
+	.caen-page2 .main .right{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;	
+		margin-top: 20px;
+	}
+	.caen-page2 .main .right img{
+		border-radius: 50%;
+		width: 200px;
+	}
+	.caen-page2 .main .right span{
+		position: absolute;
+		top: 100%;
+		font-size: 18px;
+		color: #fa3534;
+	}
+	.caen-page2 .main .title{
+		font-size: 18px;
+		font-weight: 600;
+		line-height: 28px;
+		color: #222222;
+		text-align: center;
+		/* margin-top: 50px; */
+	}
+	.caen-page2 .main .text{
+		font-size: 14px;
+		line-height: 24px;
+		margin-top: 5px;
+		font-weight: 400;
+		color: #222222;
+		text-indent: 2em;
+	}
+	.chain-page{
+		width: 100%;
+		padding: 0 20px;
+		box-sizing: border-box;
+		background-color: rgba(10,0,208,.05);
+	}
+	.chain-page .main{
+		padding-top: 20px;
+		margin: 0 auto;
+		width: 100%;
+		min-width: 100%;
+		text-align: left;
+		padding-bottom: 14px;
+	}
+	.chain-page .main .title{
+		font-size: 18px;
+		line-height: 28px;
+		font-weight: 600;
+		color: #222;
+		text-align: center;
+		margin-top: 30px;
+	}
+	.chain-page .main .page-bot .right{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-bottom: 20px;
+	}
+	.chain-page .main .page-bot .right img{
+		width: 200px;
+	}
+	.chain-page .main .page-bot .text{
+		font-size: 18px;
+		font-weight: 600;
+		color: #5964a1;
+		line-height: 38px;
+	}
+	.chain-page .main .page-bot ul{
+		list-style: none;
+		padding: 0;
+		margin: 0;
+	}
+	.chain-page .main .page-bot ul li{
+		font-size: 12px;
+		line-height: 24px;
+		font-weight: 400;
+		color: rgba(89,100,161,.7);
+		margin-top: 10px;
+	}
+	.address-page{
+		width: 100%;
+		padding: 0 20px;
+		box-sizing: border-box;
+	}
+	.address-page .main{
+		padding: 20px 0 50px;
+		margin: 0 auto;
+		width: 100%;
+		min-width: 100%;
+		text-align: center;
+	}
+	.address-page .main .title{
+		font-size: 16px;
+		line-height: 24px;
+		margin-bottom: 5px;
+		font-weight: 500;
+		color: #222222;
+	}
+	.address-page .main .title1{
+		font-size: 12px;
+		line-height: 24px;
+		margin-bottom: 20px;
+		font-weight: 400;
+		color: #222222;
+	}
+	.address-page .main .page-bot{
+		display: none;
+	}
+	.address-page .main .page-bot-arrow{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction:column;
+	}
+	.address-page .main .page-bot-arrow .addr{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0 20px;
+		box-sizing: border-box;
+		height: 60px;
+		background-color: #000000;
+		border-radius: 10px;
+	}
+	.address-page .main .page-bot-arrow .addr:first-child{
+		margin-bottom: 20px;
+	}
+	.address-page .main .page-bot-arrow .addr span{
+		font-size: 18px;
+		font-weight: 600;
+		color: #FFFFFF;
+	}
+	.address-page .main .page-bot-arrow .addr img{
+		width: 18px;
+		height: 18px;
+		margin-left: 5px;
+	}
+	.caen-page3{
+		width: 100%;
+		padding: 0 20px;
+		box-sizing: border-box;
+		background-color: rgba(46,59,144,.05);
+	}
+	.caen-page3 .main{
+		padding: 20px 0 50px;
+		margin: 0 auto;
+		width: 100%;
+		min-width: 100%;
+		text-align: center;
+	}
+	.caen-page3 .main .title{
+		font-size: 18px;
+		font-weight: 600;
+		color: #222222;	
+		margin: 0;
+		padding: 0;
+	}
+	.caen-page3 .main .text{
+		font-size: 12px;
+		line-height: 24px;
+		margin: 10px 0 20px;
+		font-weight: 400;
+		color: #222222;
+		padding: 0;
+	}
+	.caen-page3 .main .swap-page{
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 0 48px;
+		box-sizing: border-box;
+		flex-wrap:wrap;
+		margin: 0;
+	}
+	ul{
+		list-style: none;
+	}
+	.caen-page3 .main .swap-page li{
+		margin-right: 0;
+		margin-bottom: 25px;
+		flex: 1;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0;
+	}
+	.caen-page3 .main .swap-page li .swap-main{
+		width: 240px;
+		height: 120px;
+		position: relative;
+		display: inline-block;
+	}
+	.caen-page3 .main .swap-page li .swap-main img{
+		width: 100%;
+		height: 100%;
+	}
+	.caen-page3 .main .swap-page li .swap-main span{
+		height: 40px;
+		font-size: 14px;
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-weight: 400;
+		color: #222222;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	.caen-page3 .main .num-page{
+		width: 100%;
+		margin-top: 20px;
+		flex-direction:column;
+		display: flex;
+		justify-content: center;
+		padding: 0 49px;
+		box-sizing: border-box;
+	}
+	.caen-page3 .main .num-page li:first-child{
+		background-color: rgba(77,82,254,.2);
+		width: 100%;
+		border-radius: 75px;
+		display: flex;
+		align-items: center;
+		margin-right: 0;
+		margin-bottom: 20px;
+		height: 60px;
+		padding: 0;
+	}
+	.caen-page3 .main .num-page li:first-child b{
+		background: linear-gradient(180deg,#848aff,#4d52fe);
+		width: 90px;
+		border-radius: 75px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #FFFFFF;
+		flex-shrink:0;
+		font-weight:bolder;
+		height: 60px;
+		font-size: 20px;
+	}
+	.caen-page3 .main .num-page li span{
+		padding: 0 10px;
+		font-size: 12px;
+		display: inline-block;
+		font-weight: 500;
+		color: #222222;
+		text-align: left;
+		box-sizing: border-box;
+		line-height: 18px;
+	}
+	.caen-page3 .main .num-page li:last-child{
+		background-color: rgba(255,80,95,.2);
+		margin-right: 0;
+		width: 100%;
+		border-radius: 75px;
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+		height: 60px;
+		padding: 0;
+	}
+	.caen-page3 .main .num-page li:last-child b{
+		background: linear-gradient(180deg,#ff8898,#ff505f);
+		width: 90px;
+		border-radius: 75px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #FFFFFF;
+		flex-shrink:0;
+		font-weight:600;
+		height: 60px;
+		font-size: 20px;
+	}
+	.address-page1{
+		width: 100%;
+		padding: 0 20px;
+		box-sizing: border-box;
+	}
+	.address-page1 .main{
+		padding: 20px 0 50px;
+		width: 100%;
+		min-width: 100%;
+		text-align: center;
+	}
+	.address-page1 .main .title{
+		font-size: 14px;
+		line-height: 24px;
+		font-weight: 500;
+		color: #222222;
+	}
+	.address-page1 .main .title1{
+		font-size: 18px;
+		line-height: 24px;
+		font-weight: 500;
+		color: #222222;
+	}
+	.address-page1 .main .addr{
+		margin-top: 12px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+	.address-page1 .main .addr .addr_span{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		flex-direction: column;
+	}
+	.address-page1 .main .addr .addr_span span{
+		font-size: 14px;
+		font-weight: 500;
+		color: #222222;
+		margin-bottom: 15px;
+	}
+	.address-page1 .main .addr .addr_span a{
+		font-size: 14px;
+		font-weight: 500;
+		color: #222222;
+		text-decoration:underline
+	}
+	.address-page1 .main .addr .right{
+		width: 100%;
+		display: flex;
+		justify-content: center;
+		margin-top: 6px;
+	}
+	.address-page1 .main .addr .right button{
+		margin-left: 0;
+		padding: 5px 10px;
+		box-sizing: border-box;
+		background-color: rgba(32,31,236,.1);
+		border-radius: 5px;
+		font-size: 14px;
+		font-weight: 400;
+		color: #201fec;
+	}
+	.caen-page4{
+		width: 100%;
+		padding: 0 20px;
+		box-sizing: border-box;
+		background-color: rgba(46,59,144,.05);
+	}
+	.caen-page4 .main{
+		padding: 20px 0;
+		margin: 0 auto;
+		width: 100%;
+		min-width: 100%;
+		text-align: center;
+	}
+	.caen-page4 .main .title{
+		font-size: 18px;
+		font-weight: 600;
+		color: #222222;
+		margin-top: 30px;	
+	}
+	.caen-page4 .main .text{
+		font-size: 12px;
+		margin-top: 20px;
+		line-height: 24px;
+		font-weight: 400;
+		color: #222222;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.caen-page4 .main .btn button{
+		background-image: linear-gradient(to right, #f1a03a,#ed4646);
+		color: #FFFFFF;
+		border-radius: 20px;
+		border: 1px solid #CCCCCC;
+		width: 200px;
+		height: 40px;
+		cursor: pointer;
+	}
+	.caen-culture{
+		width: 100%;
+		padding: 0 20px;
+		box-sizing: border-box;
+	}
+	.caen-culture .main{
+		padding: 50px 0;
+		margin: 0 auto;
+		width: 100%;
+		min-width: 100%;
+		text-align: left;
+	}
+	.caen-culture .main img{
+		width: 100%;
+		height: auto;
+		margin-top: 20px;
+	}
+	.caen-culture .contact ul{
+		margin-bottom: 20px;
+	}
+	.caen-culture .contact ul li a{
+		display: flex;
+		align-items: center;
+		margin-top: 10px;
+	}
+	.caen-culture .contact ul li img{
+		width: 30px;
+		height: 30px;
+	}
+	.caen-culture .contact ul li a span{
+		margin-left: 10px;
+		font-size: 12px;
+		color: #666666;
+	}
+	.caen-culture .contact h1{
+		font-size: 18px;
+		font-weight: 600;
+		color: #222222;
+	}
+	.footer{
+		width: 100%;
+		min-width: 100%;
+		height: auto;
+		padding: 20px 40px;
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		background-color: #1d1d1d;
+		text-align: center;
+	}
+	.footer .text{
+		font-size: 12px;
+		font-weight: 400;
+		color: hsla(0,0%,100%,.6);
+		line-height: 18px;
+	}
+}
+
+@media (min-width:576px) {
+	.nav .nav_pc .active{
+	    color:red;
+	}
+	.fixed{
+	    position:fixed;
+	    top:0;
+		right: 0;
+	}
+	.lf-sm{
+		display: none;
+	}
+	.banner{
+		width: 100%;
+		height: 500px;
+		background: url(../images/xing.gif) no-repeat;
+		background-size: cover;
+	}
+	.banner-page1{
+		padding-top:80px;
+		margin-bottom:80px;
+		display: flex;
+		justify-content: center;
+	}
+	.banner-page1 img{
+		width: 690px;
+		height: 80px;
+	}
+	.banner-page2{
+		padding: 20px;
+		display: flex;
+		justify-content: center;
+	}
+	.banner-page2 img{
+		width: 300px;
+		height: 240px;
+		margin-top: 100px;
+	}
+	.banner-page2 h1{
+		font-size: 18px;
+		line-height: 28px;
+		font-weight: 600;
+		color: #222;
+		text-align: center;
+	}
+	.chain{
+		width: 241px;
+		height: 90rpx;
+		background-color: rgba(60,36,93,.53);
+		border-radius: 15px;
+		text-align: center;
+		display: flex;
+		flex-direction: column;
+		margin-right: 60px;
+	}
+	.chain img{
+		width: 241px;
+		height: 60px;
+	}
+	.banner-page2 span{
+		display: inline-block;
+		height: 30px;
+		font-size: 14px;
+		font-weight: 400;
+		line-height: 30px;
+		color: #FFFFFF;
+	}
+	.banner1 .btn{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.banner1 .btn button{
+		background-color: transparent;
+		color: #FFFFFF;
+		border-radius: 5px;
+		border: 1px solid #CCCCCC;
+		width: 100px;
+		height: 40px;
+		cursor: pointer;
+		font-size: 18px;
+	}
+	.banner1 .text{
+		font-size: 38px;
+		line-height: 28px;
+		font-weight: 600;
+		color: #ccc;
+		text-align: center;
+		margin-bottom: 30px;
+	}
+	.caen-page{
+		width: 100%;
+	}
+	.caen-page .main{
+		padding: 30px 0 80px;
+		min-width: 100%;
+		margin: 0 auto;
+		width: 1000px;
+		min-width: 1000px;
+		text-align: left;
+	}
+	.caen-page .main .title{
+		font-size: 38px;
+		line-height: 28px;
+		font-weight: 600;
+		color: #222;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+	.caen-page .main .text{
+		font-size: 22px;
+		line-height: 28px;
+		font-weight: 400;
+		color: #222222;
+		text-indent: 2em;
+	}
+	.caen-page .main .chain-more{
+		margin-top: 30px;
+		text-align: center;
+	}
+	.caen-page .main .chain-more .text1{
+		font-size: 18px;
+		line-height: 28px;
+		font-weight: 500;
+		color: #222222;
+	}
+	.caen-page .main .chain-more ul{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin-top: 15px;
+	}
+	.caen-page .main .chain-more ul li{
+		margin-right: 30px;
+		display: flex;
+	}
+	.caen-page .main .chain-more ul li img{
+		width: 220;
+		height: 60px;
+	}
+	.banner2{
+		width: 100%;
+		height: 200px;
+		background-color: rgba(123,0,175,.05);
+	}
+	.banner2 .main{
+		margin: 0 auto;
+		padding: 70px 0;
+		width: 1000px;
+		min-width: 1000px;
+		height: 100%;
+		display: flex;
+		justify-content: space-around;
+	}
+	.banner2 .main .title{
+		font-size: 14px;
+		font-weight: 600;
+		color: #666;
+		font-family: Montserrat-Thin,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif!important;
+		display: flex;
+		flex-direction: column;
+	}
+	.banner2 .main .title .num{
+		font-size: 20px;
+		margin: 10px 0;
+		color: #000;
+	}
+	.caen-page2{
+		width: 100%;
+	}
+	.caen-page2 .main{
+		padding-top: 30px;
+		padding-bottom: 80px;
+		margin: 0 auto;
+		width: 1000px;
+		min-width: 1000px;
+		text-align: left;
+		display: flex;
+	}
+	.caen-page2 .main .left{
+		width: 70%;
+	}
+	.caen-page2 .main .right{
+		width: 30%;
+		margin-left: 50px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+	}
+	.caen-page2 .main .right img{
+		width: 100%;
+	}
+	.caen-page2 .main .title{
+		font-size: 38px;
+		line-height: 28px;
+		font-weight: 600;
+		color: #222;
+		text-align: center;
+		margin-top: 20px;
+		margin-bottom: 20px;	
+	}
+	.caen-page2 .main .text{
+		font-size: 22px;
+		line-height: 28px;
+		font-weight: 400;
+		color: #222222;
+		text-indent: 2em;
+	}
+	.chain-page{
+		width: 100%;
+		background-color: rgba(10,0,208,.05);
+	}
+	.chain-page .main{
+		padding-top: 50px;
+		margin: 0 auto;
+		width: 1000px;
+		min-width: 1000px;
+		text-align: left;
+		padding-bottom: 14px;
+	}
+	.chain-page .main .title{
+		font-size: 38px;
+		line-height: 28px;
+		font-weight: 600;
+		color: #222;
+		text-align: center;
+	}
+	.chain-page .main .page-bot{
+		width: 100%;
+		display: flex;
+		align-items: center;
+	}
+	.chain-page .main .page-bot .text{
+		font-size: 30px;
+		font-weight: 600;
+		color: #5964a1;
+	}
+	.chain-page .main .page-bot ul{
+		padding: 0;
+		margin: 0;
+	}
+	.chain-page .main .page-bot ul li{
+		font-size: 16px;
+		line-height: 28px;
+		font-weight: 400;
+		color: rgba(89,100,161,.7);
+		margin-top: 10px;
+	}
+	.chain-page .main .page-bot .right img{
+		width: 100%;
+		height: 100%;
+	}
+	.chain-page .main .page-bot .right{
+		margin-left: 20px;
+	}
+	.address-page{
+		width: 100%;
+		box-sizing: border-box;
+	}
+	.address-page .main{
+		padding: 30px 0 90px;
+		margin: 0 auto;
+		width: 1000px;
+		min-width: 1000px;
+		text-align: center;
+	}
+	.address-page .main .title{
+		font-size: 18px;
+		line-height: 28px;
+		margin-bottom: 7px;
+		font-weight: 500;
+		color: #222222;
+	}
+	.address-page .main .title1{
+		font-size: 16px;
+		line-height: 28px;
+		margin-bottom: 30px;
+		font-weight: 400;
+		color: #222222;
+	}
+	.address-page .main .page-bot{
+		width: 100%;
+		display: flex;
+		word-wrap: break-word;
+		word-break: break-all;
+	}
+	.address-page .main .page-bot span{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 200px;
+		padding: 10px 0;
+		background-color: #000000;
+		border-radius: 10px 0 0 10px;
+		color: #FFFFFF;
+		font-size: 20px;
+		font-weight: 600;
+		word-wrap: break-word;
+		word-break: normal;
+	}
+	.address-page .main .page-bot .addr{
+		flex: 1;
+		padding: 10px 20px;
+		display: flex;
+		align-items: center;
+		color: #FFFFFF;
+		background-color: #4b4b56;
+		text-align: left;
+		box-sizing: border-box;
+		border-radius: 0 10px 10px 0;
+	}
+	.address-page .main .page-bot .addr a{
+		font-size: 16px;
+		line-height: 28px;
+		color: #FFFFFF;
+	}
+	.address-page .main .page-bot .addr a i{
+		text-decoration: underline;
+		font-style: normal;
+	}
+	.address-page .main .page-bot .addr a b{
+		font-weight: 400;
+	}
+	.address-page .main .page-bot-arrow{
+		display: none;
+	}
+	.address-page .main .page-bot-arrow .addr{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0 20px;
+		box-sizing: border-box;
+		height: 60px;
+		background-color: #000000;
+		border-radius: 10px;
+	}
+	.address-page .main .page-bot-arrow .addr:first-child{
+		margin-bottom: 20px;
+	}
+	.address-page .main .page-bot-arrow .addr span{
+		font-size: 18px;
+		font-weight: 600;
+		color: #FFFFFF;
+	}
+	.address-page .main .page-bot-arrow .addr img{
+		width: 18px;
+		height: 18px;
+		margin-left: 5px;
+	}
+	.caen-page3{
+		width: 100%;
+		background-color: rgba(46,59,144,.05);
+	}
+	.caen-page3 .main{
+		padding: 50px 0 50px;
+		margin: 0 auto;
+		width: 1000px;
+		min-width: 1000px;
+		text-align: center;
+	}
+	.caen-page3 .main .title{
+		font-size: 38px;
+		font-weight: 600;
+		color: #222222;	
+		margin: 0;
+		padding: 0;
+	}
+	.caen-page3 .main .text{
+		font-size: 16px;
+		margin: 15px 0 30px;
+		font-weight: 400;
+		color: #222222;
+		padding: 0;
+	}
+	.caen-page3 .main .swap-page{
+		width: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-wrap:wrap;
+	}
+	ul{
+		list-style: none;
+	}
+	.caen-page3 .main .swap-page li{
+		margin-right: 80px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+	.caen-page3 .main .swap-page li .swap-main{
+		width: 360px;
+		height: 180px;
+		position: relative;
+		display: inline-block;
+	}
+	.caen-page3 .main .swap-page li .swap-main img{
+		width: 100%;
+		height: 100%;
+	}
+	.caen-page3 .main .swap-page li .swap-main span{
+		width: 100%;
+		height: 59px;
+		font-size: 16px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		font-weight: 400;
+		color: #222222;
+		position: absolute;
+		bottom: 0;
+		left: 0;
+	}
+	.caen-page3 .main .swap-page{
+		margin-top: 70px;
+	}
+	.caen-page3 .main .num-page{
+		display: flex;
+		justify-content: center;
+		margin-top: 40px;
+	}
+	.caen-page3 .main .num-page li:first-child{
+		background-color: rgba(77,82,254,.2);
+		width: 400px;
+		border-radius: 75px;
+		display: flex;
+		align-items: center;
+		margin-right: 60px;
+		height: 120px;
+	}
+	.caen-page3 .main .num-page li:first-child b{
+		background: linear-gradient(180deg,#848aff,#4d52fe);
+		width: 150px;
+		border-radius: 75px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #FFFFFF;
+		flex-shrink:0;
+		font-weight:bolder;
+		height: 120px;
+		font-size: 38px;
+	}
+	.caen-page3 .main .num-page li span{
+		display: inline-block;
+		font-weight: 500;
+		padding: 0 15px;
+		font-size: 20px;
+		color: #222222;
+		text-align: left;
+		box-sizing: border-box;
+		line-height: 30px;
+	}
+	.caen-page3 .main .num-page li:last-child{
+		background-color: rgba(255,80,95,.2);
+		margin-right: 0;
+		width: 400px;
+		border-radius: 75px;
+		display: flex;
+		align-items: center;
+		margin-bottom: 20px;
+		height: 120px;
+	}
+	.caen-page3 .main .num-page li:last-child b{
+		background: linear-gradient(180deg,#ff8898,#ff505f);
+		width: 150px;
+		border-radius: 75px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		color: #FFFFFF;
+		flex-shrink:0;
+		font-weight:600;
+		height: 120px;
+		font-size: 38px;
+	}
+	.address-page1{
+		width: 100%;
+	}
+	.address-page1 .main{
+		padding: 30px 0 80px;
+		width: 1000px;
+		min-width: 1000px;
+		text-align: center;
+		margin: 0 auto;
+	}
+	.address-page1 .main .title{
+		font-size: 16px;
+		font-weight: 500;
+		color: #222222;
+	}
+	.address-page1 .main .title1{
+		font-size: 24px;
+		font-weight: 500;
+		color: #222222;
+		margin-top: 30px;
+	}
+	.address-page1 .main .addr{
+		margin-top: 11px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.address-page1 .main .addr .addr_span{
+		width: 70%;
+		display: flex;
+		justify-content: flex-end;
+	}
+	.address-page1 .main .addr .addr_span span{
+		font-size: 16px;
+		font-weight: 500;
+		color: #222222;
+	}
+	.address-page1 .main .addr .addr_span a{
+		font-size: 16px;
+		font-weight: 500;
+		color: #222222;
+		text-decoration:underline
+	}
+	.address-page1 .main .addr .right{
+		width: 20%;
+		text-align: left;
+	}
+	.address-page1 .main .addr .right button{
+		margin-left: 20px;
+		padding: 8px 8px;
+		box-sizing: border-box;
+		background-color: rgba(32,31,236,.1);
+		border-radius: 5px;
+		font-size: 14px;
+		font-weight: 400;
+		color: #201fec;
+	}
+	.caen-page4{
+		width: 100%;
+		background-color: rgba(46,59,144,.05);
+	}
+	.caen-page4 .main{
+		padding: 50px 0;
+		margin: 0 auto;
+		width: 1000px;
+		min-width: 1000px;
+		text-align: center;
+	}
+	.caen-page4 .main .title{
+		font-size: 38px;
+		font-weight: 600;
+		color: #222222;
+	}
+	.caen-page4 .main .text{
+		font-size: 16px;
+		line-height: 28px;
+		font-weight: 400;
+		color: #222222;
+		margin-top: 30px;
+		margin-bottom: 30px;
+		text-align: center;
+	}
+	.caen-page4 .main .btn button{
+		background-image: linear-gradient(to right, #f1a03a,#ed4646);
+		color: #FFFFFF;
+		border-radius: 20px;
+		border: 1px solid #CCCCCC;
+		width: 200px;
+		height: 40px;
+		cursor: pointer;
+	}
+	.caen-culture{
+		width: 100%;
+		display: flex;
+	}
+	.caen-culture .main{
+		width: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.caen-culture .main img{
+		width: 300px;
+		height: 300px;
+	}
+	.caen-culture .contact{
+		width: 50%;
+		padding: 30px 0;
+	}
+	.caen-culture .contact h1{
+		font-size: 38px;
+		color: #222222;
+		font-weight: 600;
+		margin-bottom: 20px;
+	}
+	.caen-culture .contact ul li a{
+		display: flex;
+		align-items: center;
+	}
+	.caen-culture .contact ul li a img{
+		width: 70px;
+	}
+	.caen-culture .contact ul li a span{
+		font-size: 24px;
+		color: #666666;
+		margin-left: 10px;
+	}
+	.footer{
+		width: 100%;
+		min-width: 1000px;
+		height: 120px;
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		justify-content: center;
+		background-color: #1d1d1d;
+	}
+	.footer .text{
+		font-size: 13px;
+		font-weight: 400;
+		color: hsla(0,0%,100%,.6);
+	}
+}
